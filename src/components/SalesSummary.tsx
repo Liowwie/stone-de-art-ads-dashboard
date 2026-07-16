@@ -24,10 +24,8 @@ export function SalesSummary({ kpis }: { kpis: ReturnType<typeof getExecutiveKpi
 
       {!kpis.roasReliable && (
         <div className="rounded-lg border border-amber-200 bg-amber-50 text-amber-800 text-sm p-4">
-          <span className="font-medium">Data-quality warning:</span> only {kpis.salesCount} sale(s) in this
-          range are tagged &ldquo;Paid&rdquo; (confirmed Google Ads-attributed) in the source sales log, and
-          attribution there is a manual tag with no order ID, click ID, or UTM link back to a specific ad
-          click. ROAS shown above should be treated as indicative only, not a verified figure.
+          <span className="font-medium">Data-quality warning:</span>{" "}
+          {`Only ${kpis.salesCount} sale(s) in this range are tagged "Paid" (confirmed Google Ads-attributed) in the source sales log, and attribution there is a manual tag with no order ID, click ID, or UTM link back to a specific ad click. ROAS shown above should be treated as indicative only, not a verified figure.`}
         </div>
       )}
 

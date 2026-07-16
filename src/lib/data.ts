@@ -43,8 +43,16 @@ export type DateRange = { start?: string | null; end?: string | null };
 
 function inRange(date: string | null, range: DateRange): boolean {
   if (!date) return true;
-  if (range.start && date < range.start) return false;
-  if (range.end && date > range.end) return false;
+  // `date` may be day-granularity ("2025-09-03", for leads/sales) or
+  // month-granularity ("2025-09", for monthly.json rows). Truncate the range
+  // boundaries to match, otherwise a month-granularity value compared against
+  // a day-granularity boundary is wrong at the edges: "2026-01" < "2026-01-01"
+  // is true as a plain string comparison, which would wrongly exclude all of
+  // January from a range starting "2026-01-01".
+  const start = range.start ? range.start.slice(0, date.length) : undefined;
+  const end = range.end ? range.end.slice(0, date.length) : undefined;
+  if (start && date < start) return false;
+  if (end && date > end) return false;
   return true;
 }
 
