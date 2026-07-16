@@ -1,0 +1,57 @@
+[
+  {
+    "month": "2025-08",
+    "organicPaid": "Organic",
+    "amount": 29070
+  },
+  {
+    "month": "2025-08",
+    "organicPaid": "Organic",
+    "amount": 1888
+  },
+  {
+    "month": "2025-10",
+    "organicPaid": "Unsure",
+    "amount": 8160
+  },
+  {
+    "month": "2025-10",
+    "organicPaid": "Unsure",
+    "amount": 105200
+  },
+  {
+    "month": "2025-12",
+    "organicPaid": "Paid",
+    "amount": 139965
+  },
+  {
+    "month": "2025-12",
+    "organicPaid": "Unsure",
+    "amount": 100244
+  },
+  {
+    "month": "2025-12",
+    "organicPaid": "Paid",
+    "amount": 66870
+  },
+  {
+    "month": "2026-04",
+    "organicPaid": "Unsure",
+    "amount": 71155
+  },
+  {
+    "month": "2026-04",
+    "organicPaid": "Unsure",
+    "amount": 7800
+  },
+  {
+    "month": "2026-04",
+    "organicPaid": "Organic",
+    "amount": 20000
+  },
+  {
+    "month": "2026-05",
+    "organicPaid": "Unsure",
+    "amount": 14800
+  }
+]
