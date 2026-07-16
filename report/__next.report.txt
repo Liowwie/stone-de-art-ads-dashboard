@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[39756,["/stone-de-art-ads-dashboard/_next/static/chunks/3rdqn8rx95pw7.js","/stone-de-art-ads-dashboard/_next/static/chunks/1-8s9_t85wwr4.js"],"default"]
-3:I[37457,["/stone-de-art-ads-dashboard/_next/static/chunks/3rdqn8rx95pw7.js","/stone-de-art-ads-dashboard/_next/static/chunks/1-8s9_t85wwr4.js"],"default"]
+2:I[39756,["/stone-de-art-ads-dashboard/_next/static/chunks/1tyskzoep6xgm.js","/stone-de-art-ads-dashboard/_next/static/chunks/1-8s9_t85wwr4.js"],"default"]
+3:I[37457,["/stone-de-art-ads-dashboard/_next/static/chunks/1tyskzoep6xgm.js","/stone-de-art-ads-dashboard/_next/static/chunks/1-8s9_t85wwr4.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"PqSEButcbsBPq6gTTRcRK"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"jKlPNU6ly7RRvKIFz51Dp"}
